@@ -21,6 +21,7 @@
 		3B98E07418E5EC6A00D3D66C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B98E05618E5EC6A00D3D66C /* UIKit.framework */; };
 		3B98E07C18E5EC6A00D3D66C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3B98E07A18E5EC6A00D3D66C /* InfoPlist.strings */; };
 		3B98E07E18E5EC6A00D3D66C /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B98E07D18E5EC6A00D3D66C /* Git_TestTests.m */; };
+		3B98E08918E5F05400D3D66C /* GTTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B98E08818E5F05400D3D66C /* GTTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		3B98E07918E5EC6A00D3D66C /* Git TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git TestTests-Info.plist"; sourceTree = "<group>"; };
 		3B98E07B18E5EC6A00D3D66C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3B98E07D18E5EC6A00D3D66C /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		3B98E08718E5F05400D3D66C /* GTTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTTest.h; sourceTree = "<group>"; };
+		3B98E08818E5F05400D3D66C /* GTTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +122,8 @@
 				3B98E06818E5EC6A00D3D66C /* GTViewController.m */,
 				3B98E06A18E5EC6A00D3D66C /* Images.xcassets */,
 				3B98E05918E5EC6A00D3D66C /* Supporting Files */,
+				3B98E08718E5F05400D3D66C /* GTTest.h */,
+				3B98E08818E5F05400D3D66C /* GTTest.m */,
 			);
 			path = "Git Test";
 			sourceTree = "<group>";
@@ -252,6 +257,7 @@
 			files = (
 				3B98E05F18E5EC6A00D3D66C /* main.m in Sources */,
 				3B98E06918E5EC6A00D3D66C /* GTViewController.m in Sources */,
+				3B98E08918E5F05400D3D66C /* GTTest.m in Sources */,
 				3B98E06318E5EC6A00D3D66C /* GTAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
